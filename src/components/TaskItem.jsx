@@ -6,11 +6,12 @@ import styles from "./TaskItem.module.css"
 // Library Imports
 import { CheckIcon, PencilSquareIcon, TrashIcon } from "@heroicons/react/24/outline";
 
-const TaskItem = ({ task, deleteTask }) => {
+const TaskItem = ({ task, deleteTask, toggleTask }) => {
     const [isChecked, setIsChecked] = useState(task.checked);
 
     const handleCheckboxChange = (e) => {
         setIsChecked(!isChecked);
+        toggleTask(task.id);
     }
 
 
@@ -43,7 +44,7 @@ const TaskItem = ({ task, deleteTask }) => {
         // onClick={}
         >
 <PencilSquareIcon strokeWidth={2} width={24}/>
-        </button>
+        </button> 
 
         <button
         className={`btn ${styles.delete}`}
