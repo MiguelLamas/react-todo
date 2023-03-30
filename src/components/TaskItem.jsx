@@ -6,7 +6,7 @@ import styles from "./TaskItem.module.css"
 // Library Imports
 import { CheckIcon, PencilSquareIcon, TrashIcon } from "@heroicons/react/24/outline";
 
-const TaskItem = ({ task, deleteTask, toggleTask }) => {
+const TaskItem = ({ task, deleteTask, toggleTask, enterEditMode }) => {
     const [isChecked, setIsChecked] = useState(task.checked);
 
     const handleCheckboxChange = (e) => {
@@ -41,7 +41,7 @@ const TaskItem = ({ task, deleteTask, toggleTask }) => {
         <button
         className="btn"
         aria-label={`Update ${task.name} Task`}
-        // onClick={}
+        onClick={() => enterEditMode(task)}
         >
 <PencilSquareIcon strokeWidth={2} width={24}/>
         </button> 
