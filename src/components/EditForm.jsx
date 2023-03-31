@@ -11,20 +11,29 @@ const EditForm = ({ editedTask, updateTask, closeEditMode }) => {
     const closeModalIfEscaped = (e) => {
         e.key === "Escape" && closeEditMode()
     }
- window.addEventListener('keydown', closeModalIfEscaped)
-  }, [])
 
-  const handleFormSubmit = (e) => {
+    window.addEventListener('keydown', closeModalIfEscaped)
+
+    // clean up function
+    return () => {
+      window.removeEventListener('keydown', closeModalIfEscaped)
+    }
+  }, [closeEditMode])
+
+  const handleFormSubmit = (e) => { 
     e.preventDefault();
-    updateTask({...editedTask, name: updatedTaskName})
+    updateTask({...editedTask, name: updatedTaskName}) 
   };
 
   return (  
         <div role="dialog" 
         aria-labelledby="editTask"
-        // onClick={}
+        onClick={(e) => {e.target === e.
+        currentTarget && closeEditMode()}} 
         >
-        <form className="todo" onSubmit={handleFormSubmit}>
+        <form className="todo" 
+        onSubmit={handleFormSubmit}
+        >
           <div className="wrapper">
             <input
               type="text"
