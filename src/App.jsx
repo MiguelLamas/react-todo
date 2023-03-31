@@ -55,6 +55,7 @@ function App() {
           <EditForm 
        editedTask={editedTask}
        updateTask={updateTask}
+       closedEditMode={closeEditMode}
        />
         )
       }
@@ -65,11 +66,10 @@ function App() {
       deleteTask={deleteTask}
       toggleTask={toggleTask}
       enterEditMode={enterEditMode}
-      closeEditMode={closeEditMode}
       />
       )}
     </div>
-  );
+  )
 }
 
 export default App;
