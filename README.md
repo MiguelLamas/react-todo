@@ -9,9 +9,10 @@ I created this React ToDo app that saves and loads to local storage. The React A
 * Creating your own Custom Hooks to read and write data to your local storage.
 * How to deal with State locally and pass it between Components.
 * Working with Heroicons (Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS).
-* Accessibility (aria-label, color theory)
+* Accessibility (aria-label, color theory, color)
 * Working with Vite JS.
-* 
+* Customised App by adding Light/Dark Mode.
+* Customised App by adding color theme switcher.
 
 
 ## Built with:
@@ -22,6 +23,7 @@ I created this React ToDo app that saves and loads to local storage. The React A
 * Vite JS
 * HTML
 * CSS
+* Heroicons
 
 ## Deployed with:
 
@@ -32,15 +34,15 @@ I created this React ToDo app that saves and loads to local storage. The React A
 * Prerequisites
   * None
 
-* Clone Repo `https://github.com/MiguelLamas/rick-and-morty-character-wiki.git`
+* Clone Repo `https://github.com/MiguelLamas/react-todo.git`
 
-* Before starting the project, follow these steps to get it set up:
+* Before starting the project, follow these steps to create project, install Vite and get your server up and running.
 
-  * Open the project folder in VS code
-  * Open your terminal and run these commands below by one:
-  * `pnpm create vite project-name`
-  * `Select a framework from list`
-  * `npm start`
+  * `pnpm create vite <your-project-name>`
+  * `Select a framework from list provided`
+  * `cd <your-project-name>`
+  * `pnpm install`
+  * `pnpm run dev`
 
 * To make your dev experience easier, download these VS code extensions:
   * ES7 React/Redux/GraphQL/React-Native snippets
