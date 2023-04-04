@@ -38,11 +38,13 @@ I created this React ToDo app that saves and loads to local storage. The React A
 
 * Before starting the project, follow these steps to create project, install [Vite JS](https://vitejs.dev/guide/) and get your server up and running:
 
-  * `pnpm create vite <your-project-name>`
-  * `Select a framework from list provided`
+  * `npm create vite@latest`
+  * `add <your-project-name>`
+  * `select a framework`
+  * `select a variant`
   * `cd <your-project-name>`
-  * `pnpm install`
-  * `pnpm run dev`
+  * `npm install`
+  * `npm run dev`
 
 * To make your dev experience easier, download these VS code extensions:
   * ES7 React/Redux/GraphQL/React-Native snippets
