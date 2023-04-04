@@ -1,4 +1,4 @@
-# Modern ToDo CRUD App (Vite + React Project)
+# Modern ToDo CRUD App (Vite + React)
 
 I created this React ToDo app that saves and loads to local storage. The React App includes full CRUD functionality: create, read, update, and delete.
 
