@@ -9,7 +9,7 @@ I created this React ToDo app that saves and loads to local storage. The React A
 * Creating your own Custom Hooks to read and write data to your local storage.
 * How to deal with State locally and pass it between Components.
 * Working with Heroicons (Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS).
-* Accessibility (aria-label, color theory, color)
+* Accessibility (aria-label, color theme switcher).
 * Working with Vite JS.
 * Customised App by adding Light/Dark Mode.
 * Customised App by adding color theme switcher.
@@ -36,7 +36,7 @@ I created this React ToDo app that saves and loads to local storage. The React A
 
 * Clone Repo `https://github.com/MiguelLamas/react-todo.git`
 
-* Before starting the project, follow these steps to create project, install Vite and get your server up and running.
+* Before starting the project, follow these steps to create project, install [Vite JS](https://vitejs.dev/guide/) and get your server up and running:
 
   * `pnpm create vite <your-project-name>`
   * `Select a framework from list provided`
