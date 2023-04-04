@@ -10,7 +10,7 @@ I created this React ToDo app that saves and loads to local storage. The React A
 * How to deal with State locally and pass it between Components.
 * Working with Heroicons (Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS).
 * Accessibility (aria-label, color theme switcher).
-* Working with Vite JS.
+* Working with Vite JS, for a faster and smoother development workflow.
 * Customised App by adding Light/Dark Mode.
 * Customised App by adding color theme switcher.
 
