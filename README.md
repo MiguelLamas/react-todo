@@ -1,7 +1,7 @@
 # Modern ToDo CRUD App (Vite + React)
 
 I created this React ToDo app that saves and loads to local storage. The React App includes full CRUD functionality: create, read, update, and delete. 
-It's also customised with Light/Dark Mode and a Color Theme Switcher.
+It's also customised with Light/Dark Mode and a Color Theme switcher.
 
 ## Main Learning Points:
 
